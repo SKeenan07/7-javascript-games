@@ -1,0 +1,24 @@
+.square {
+	width: 200px;
+	height: 200px;
+	border-style: solid;
+	border-color: black;
+	background-image: url('bharath-raj-n--laN0yECGm0-unsplash.jpg');
+	background-position: center;
+}
+
+.grid {
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: center;
+	align-content: center;
+	width: 618px;
+	height: 618px;
+}
+ 
+ .mole {
+	background-image: url('mole.png'), url('bharath-raj-n--laN0yECGm0-unsplash.jpg');
+	background-size: auto;
+	background-repeat: no-repeat;
+	background-position: center;
+}

@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+    <!-- Required meta tags - Bootstrap -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+	<title>Whack a Mole</title>
+	<link rel="stylesheet" href="../styles.css"></link>
+
+	<link rel="stylesheet" href="styles.css"></link>
+	
+	<!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+</head>
+<body>
+
+	<nav class="navbar navbar-expand-lg navbar-dark navbar-custom">
+		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav">
+			<span class="navbar-toggler-icon"></span>
+		</button>
+		<div class="collapse navbar-collapse" id="navbarNav">
+			<ul class="navbar-nav">
+				<li class="nav-item active">
+					<a class="nav-link" href="../index.html">Home <span class="sr-only">(current)</span></a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="../1_memoryGame/memoryGameIndex.html">Memory Game</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="../2_whack-a-mole/WhackAMoleIndex.html">Whack-a-mole</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="../3_connect_4/connect4index.html">Connect 4</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="../4_snake/snakeIndex.html">Snake</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="../5_spaceInvaders/spaceInvadersIndex.html">Space Invaders</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="../6_frogger/froggerIndex.html">Frogger</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="../7_tetris/tetrisIndex.html">Tetris</a>
+				</li>
+			</ul>
+		</div>
+	</nav>
+	
+	<div class="container">
+	
+		<h1>Whack a mole!</h1>
+	
+		<h2>Your Score:</h2>
+		<h2 id="score">0</h2>
+	
+		<h2>Seconds left:</h2>
+		<h2 id="time-left">60</h2>
+	
+		<div class="grid">
+			<div class="square" id="1"></div>
+			<div class="square" id="2"></div>
+			<div class="square" id="3"></div>
+			<div class="square" id="4"></div>
+			<div class="square" id="5"></div>
+			<div class="square" id="6"></div>
+			<div class="square" id="7"></div>
+			<div class="square" id="8"></div>
+			<div class="square" id="9"></div>
+		</div>
+	
+		<p>Mole image is from <a href="https://pixabay.com/vectors/animal-mole-underground-furry-158236/" target="_blank">Pixabay</a> 
+		and the grass image is from <a href="https://unsplash.com/photos/-laN0yECGm0" target="_blank">Unsplash</a></p>
+	
+	</div>
+	<!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+</body>
+<script src="app.js" charset="utf-8"></script>
+</html>
