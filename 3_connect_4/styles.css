@@ -1,0 +1,22 @@
+.grid {
+    border: 1px solid;
+    display: flex;
+    flex-wrap: wrap;
+    height: 120px;
+    width: 140px;
+    height: 180px;
+    width: 210px;
+}
+
+.grid div {
+    height: 30px;
+    width: 30px;
+}
+
+.player-one {
+    background-image: url(red-paw-print.png);
+}
+
+.player-two {
+    background-image: url(blue-paw-print.png);
+}
